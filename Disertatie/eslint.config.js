@@ -22,6 +22,11 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+    settings: {
+      react: {
+        version: '19.0.0',
+      },
+    },
     rules: {
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
